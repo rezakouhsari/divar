@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>وب سایت دیوار</title>
+    <link rel="icon" type="image/png" href="res/img/logo_one.png"/>
+    <link href="res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="res/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="res/css/vazir.css" rel="stylesheet">
+    <link href="res/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container-fluid border-bottom sticky-top bg-white">
+
+    <!--    navbar-->
+
+    <div class="navbar navbar-expand-md d-flex mt-2 ">
+
+        <div class="navbar-brand d-flex">
+
+            <h5 class="text-danger">دیوار</h5>
+
+            <a id="city" href="#" class="d-flex text-decoration-none align-items-center border p-1 rounded mx-4 mt-n2">
+                <span class="fa fa-map-marker text-muted ps-3 pe-1"></span>
+                <p class="text-muted mb-0 ps-1">شیراز</p>
+            </a>
+
+
+        </div>
+
+        <button class="btn btn-danger ps-4 pe-4 pt-2 pb-2 ms-auto me-4">ثبت آگهی</button>
+
+        <button class="navbar-toggler border border-2 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+
+            <span class="fa fa-navicon	text-muted"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto me-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">دیوار من</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">چت</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">درباره دیوار</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">بلاگ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">پشتیبانی</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">خروج</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <!--    end_navbar-->
+
+
+</div>
+
+
+<div class="container mt-5">
+
+    <!--    main-->
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h4 class="text-body">ثبت آگهی</h4>
+            <div class="border border-1 rounded mt-5 d-flex align-items-center ">
+                <h5 class="text-muted p-5">آپارتمان</h5>
+                <button class="btn btn-lg btn-outline-danger border-0 ms-auto me-3">تغییر دسته‌بندی</button>
+            </div>
+
+            <h4 class="text-body mt-5 mb-4">شهر</h4>
+            <select class="form-select bg-white" disabled>
+                <option class="text-body" selected>شیراز</option>
+            </select>
+
+            <h4 class="text-body mt-5 mb-4">محدودهٔ آگهی</h4>
+            <select class="form-select bg-white text-muted" disabled>
+                <option class="text-body" selected>شیراز</option>
+            </select>
+
+            <h4 class="text-body mt-5 mb-2">عکس آگهی</h4>
+            <p class="text-muted fs-6">عکس‌هایی از فضای داخل و بیرون ملک اضافه کنید. آگهی‌های دارای عکس تا «۳ برابر»
+                بیشتر توسط کاربران دیده می‌شوند.</p>
+
+
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="w-auto pt-5 pb-5 h-auto rounded dash d-flex justify-content-center align-items-center">
+                        <span class="fa fa-file-image-o text-muted text-center fs-2"></span>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+
+
+            <p class="text-muted mt-3">تعداد عکس‌های انتخاب شده نباید بیشتر از ۲۰ باشد.</p>
+
+
+            <h4 class="text-body mt-5 mb-4">متراژ</h4>
+            <input type="text" class="form-control border border-2">
+
+            <h4 class="text-body mt-5 mb-2">آگهی‌دهنده</h4>
+
+
+            <div class="d-flex my-4">
+                <div class="custom-control custom-radio px-4">
+                    <input type="radio" class="custom-control-input " id="customRadioo" name="example1"
+                           value="customEx">
+                    <label class="custom-control-label" for="customRadioo">شخصی</label>
+                </div>
+                <div class="custom-control custom-radio px-4">
+                    <input type="radio" class="custom-control-input " id="customRadio" name="example1" value="customEx">
+                    <label class="custom-control-label" for="customRadio">مشاور املاک</label>
+                </div>
+
+            </div>
+
+            <h4 class="text-body mt-5 mb-4">ودیعه</h4>
+            <input type="text" class="mt-3 form-control border border-2" placeholder="ودیعه به تومان">
+
+
+            <h4 class="text-body mt-5 mb-4">اجارهٔ ماهانه</h4>
+            <input type="text" class="mt-3 form-control border border-2" placeholder="اجاره ماهیانه به تومان">
+
+            <h4 class="text-body mt-5 mb-4">ودیعه و اجاره
+                انتخاب</h4>
+            <select class="form-select bg-white text-muted" disabled>
+                <option class="text-body" selected>شیراز</option>
+            </select>
+
+            <h4 class="text-body mt-5 mb-4">مناسب برای
+                انتخاب</h4>
+            <select class="form-select bg-white text-muted" disabled>
+                <option class="text-body" selected>شیراز</option>
+            </select>
+
+
+            <div class="btn btn-outline-danger d-block mt-5">انتخاب سایر ویژگی‌ها و امکانات</div>
+
+            <hr class="text-muted">
+
+
+            <h5 class="text-body mt-4 mb-4">شمارهٔ موبایل</h5>
+            <p class="text-muted fs-6">توجه: لطفاً پس از ثبت آگهی، از طریق هیچ پیامکی برای پرداخت وجه جهت انتشار آگهی
+                اقدام نکنید.
+                کد تأیید به شمارهٔ موبایل شما ارسال خواهد شد. تماس و چت نیز با این شماره انجام می‌شود.</p>
+
+
+            <input type="text" class="mt-4 mb-4 form-control border border-2 text-body" value="09164021296">
+
+            <div class="custom-control custom-checkbox d-flex align-items-center">
+                <input type="checkbox" class="custom-control-input text-danger" id="customCheck" name="example1">
+                <label class="custom-control-label px-3" for="customCheck">چت دیوار فعال شود</label>
+            </div>
+
+
+            <h5 class="text-body mt-5 mb-4">عنوان آگهی</h5>
+            <p class="text-muted mt-2">در عنوان آگهی به موارد مهم و چشمگیر اشاره کنید.</p>
+
+            <input type="text" class="mt-4 mb-4 form-control border border-2 text-body">
+
+
+            <h5 class="text-body mt-5 mb-4">توضیحات آگهی</h5>
+            <p class="text-muted mt-2">در توضیحات آگهی به مواردی مانند شرایط اجاره، جزئیات و ویژگی‌های قابل توجه،
+                دسترسی‌های محلی و موقعیت قرارگیری ملک اشاره کنید.</p>
+
+
+            <textarea rows="3" class="form-control p-4 text-muted fs-5">توضیحات را بنویسید</textarea>
+
+
+            <div class="d-flex justify-content-end mt-4 mb-5">
+
+                <button class="btn btn-lg btn-danger pt-2 pb-2 pe-4 ps-4 border border-2 mx-2">ارسال آگهی</button>
+                <button class="btn btn-lg btn-light text-muted border border-2 pt-2 pb-2 pe-4 ps-4 mx-2">انصراف</button>
+            </div>
+
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="mt-5 d-flex">
+        <div class="mt-5">
+            <ul class="list-unstyled d-flex">
+                <li class="px-2"><a class="text-muted text-decoration-none " href="#"><h5 class="text-danger">دیوار</h5>
+                </a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">|</a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">درباره دیوار</a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">|</a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">پشتیبانی</a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">|</a></li>
+                <li class="px-2"><a class="text-muted text-decoration-none" href="#">بلاگ دیوار</a></li>
+            </ul>
+        </div>
+        <div class="mt-5 ms-auto me-0">
+            <ul class="list-unstyled d-flex">
+                <li class="px-2"><span class="fa fa-instagram	text-muted"></span></li>
+                <li class="px-2"><span class="fa fa-twitter text-muted"></span></li>
+                <li class="px-2"><span class="fa fa-linkedin-square text-muted"></span></li>
+                <li class="px-2"><span class="fa fa-youtube-play text-muted"></span></li>
+            </ul>
+        </div>
+
+        <div></div>
+    </div>
+
+    <!--    end_main-->
+
+
+</div>
+
+
+<script src="res/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

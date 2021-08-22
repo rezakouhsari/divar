@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>وب سایت دیوار</title>
+    <link rel="icon" type="image/png" href="res/img/logo_one.png"/>
+    <link href="res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="res/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="res/css/vazir.css" rel="stylesheet">
+    <link href="res/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="container-fluid border-bottom sticky-top bg-white">
+
+
+    <!--    navbar    -->
+
+    <div class="navbar navbar-expand-md d-flex mt-2 ">
+        <div class="navbar-brand d-flex">
+            <h5 class="text-danger">دیوار</h5>
+            <a id="city" href="#" class="d-flex text-decoration-none align-items-center border p-1 rounded mx-4 mt-n2">
+                <span class="fa fa-map-marker text-muted ps-3 pe-1"></span>
+                <p class="text-muted mb-0 ps-1">شیراز</p>
+            </a>
+        </div>
+        <button class="btn btn-danger ps-4 pe-4 pt-2 pb-2 ms-auto me-4">ثبت آگهی</button>
+        <button class="navbar-toggler border border-2 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+            <span class="fa fa-navicon	text-muted"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto me-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">دیوار من</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">چت</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">درباره دیوار</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">بلاگ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">پشتیبانی</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-decoration-none" href="#">خروج</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--    end navbar-->
+
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+
+        <!--sidbar-->
+
+        <div id="reza" class="col-md-3">
+            <h5 class="mt-4 mb-3 "> دسته بندی ها</h5>
+            <ul class="list-unstyled list_right_hover">
+                <li class="d-flex align-items-center py-2"><span class="fa fa-home text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">املاک</a></li>
+                <li class="d-flex align-items-center py-2"><span class="fa fa-car	text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">وسایل نقلیه</a></li>
+                <li class="d-flex align-items-center py-2"><span
+                        class="fa fa-headphones text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">لوازم الکترونیکی</a></li>
+                <li class="d-flex align-items-center py-2"><span
+                        class="fa fa-balance-scale text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">مربوط به خانه</a></li>
+                <li class="d-flex align-items-center py-2"><span class="fa fa-bed	text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">خدمات</a></li>
+                <li class="d-flex align-items-center py-2"><span
+                        class="fa fa-bullhorn	 text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">وسایل شخصی</a></li>
+                <li class="d-flex align-items-center py-2"><span
+                        class="fa fa-camera-retro text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">سرگرمی و فراغت</a></li>
+                <li class="d-flex align-items-center py-2"><span class="fa fa-chrome text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">اجتماعی</a></li>
+                <li class="d-flex align-items-center py-2"><span
+                        class="fa fa-clock-o	text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">برای کسب و کار</a></li>
+                <li class="d-flex align-items-center py-2"><span class="fa fa-coffee text-muted p-2 ps-3 pt-2"></span><a
+                        class="text-muted text-decoration-none" href="#">استخدام و کاریابی</a></li>
+            </ul>
+            <hr class="mx-4 text-muted mt-4">
+            <div class="d-flex p-2 ps-3 align-items-center">
+                <span class="fa fa-chevron-down text-muted"></span>
+                <a class="text-muted m-0 px-3 text-decoration-none" data-bs-toggle="collapse" href="#location">محل</a>
+            </div>
+            <div class="collapse" id="location">
+                <div class="card card-body">
+                    اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند.
+                </div>
+            </div>
+            <hr class="mx-4 text-muted mt-2">
+            <div class="d-flex p-2 ps-3 align-items-center">
+                <span class="fa fa-chevron-down text-muted"></span>
+                <a class="text-muted m-0 px-3 text-decoration-none" data-bs-toggle="collapse" href="#price">قیمت</a>
+            </div>
+            <div class="collapse" id="price">
+                <div class="card card-body">
+                    طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد.                </div>
+            </div>
+            <hr class="mx-4 text-muted mt-2">
+            <div>
+                <ul class="list-unstyled d-flex flex-wrap list_right_hover">
+                    <li class="p-2 px-3"><a class="text-muted text-decoration-none " href="#">درباره دیوار</a></li>
+                    <li class="p-2 px-3"><a class="text-muted text-decoration-none " href="#">دریافت برنامه</a></li>
+                    <li class="p-2 px-3"><a class="text-muted text-decoration-none " href="#">بلاگ دیوار</a></li>
+                    <li class="p-2 px-3"><a class="text-muted text-decoration-none " href="#">پشتیبانی</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#"><span
+                            class="fa fa-instagram	 text-muted"></span></a></li>
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#"><span
+                            class="fa fa-twitter text-muted"></span></a></li>
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#"><span
+                            class="fa fa-linkedin text-muted"></span></a></li>
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#"><span
+                            class="fa fa-youtube-play text-muted"></span></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#">
+                        <img src="res/img/one.png" width="100" height="100">
+                    </a></li>
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#">
+                        <img src="res/img/download.png" width="100" height="100">
+                    </a></li>
+                    <li class="pt-3 px-3"><a class="text-muted text-decoration-none " href="#">
+                        <img src="res/img/tow.png" width="100" height="100">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--end-sidbar-->
+
+
+        <!--main-->
+
+        <div class="col-md-9 ">
+            <div class="d-flex ">
+                <div class="mt-4">
+                    <select id="select-width"
+                            class="form-control form-select bg-light  pt-3 pb-3 shadow shadow-none border " disabled>
+                        <option> همه آگهی ها</option>
+                    </select>
+                </div>
+                <input id="input-search" placeholder="جستجو در همه آگهی ها" type="text"
+                       class="form-control width mr-n2 mt-4 border rounded-start shadow shadow-none  pe-4">
+            </div>
+            <div>
+                <div class="row ">
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        آپاراتمان
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        اجاره
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        موبایل
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        مبلمان
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        حیوانات
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        خدمات
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        استخدام
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        تلویزیون
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        خانه
+                    </button>
+                    <button class="col-md-2 col-2 col-lg-1 mt-3 ms-1 pe-3 ps-3 btn btn-sm btn-outline-danger rounded-pill">
+                        استخدام
+                    </button>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end mt-5 me-4">
+                <p class="text-muted me-4">دیوار شیراز:‌ انواع آگهی‌ها و خدمات در شیراز</p>
+            </div>
+            <hr class="m-0 text-muted me-4">
+            <div class="row  d-flex flex-wrap justify-content-start me-4">
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 ">
+                    <div class="card mt-4">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card-body pe-2">
+                                    <h5 class="card-title font-w">وانت تلفنی حمل بار باربری وحمل نقل</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted ">۱ ساعت پیش در شیراز، شهر صدرا | حمل و نقل</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <img src="res/img/img1.jpg" class="p-2" style="height: 100% ;width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center text-muted my-4 ">
+                        <div class="spinner-border" role="status" style="width: 50px;height: 50px">
+                        </div>
+                    </div>
+                    <p class="text-center text-muted">در حال دریافت...</p>
+                </div>
+            </div>
+        </div>
+
+        <!--end-main-->
+
+
+    </div>
+</div>
+<script src="res/js/bootstrap.min.js"></script>
+</body>
+</html>

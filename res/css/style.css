@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+body {
+  font-family: Vazir;
+  text-align: right;
+  direction: rtl;
+}
+
+@media (min-width: 992px) {
+  #reza {
+    height: calc(100vh + 400px);
+    top: 10px;
+    /* or whatever top you need */
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+.mt-n2 {
+  margin-top: -0.5rem !important;
+}
+
+#city {
+  transition: background-color 0.5s;
+}
+#city:hover {
+  background-color: #eee;
+}
+
+#NavLink li a {
+  transition: color 0.5s;
+}
+#NavLink li a:hover {
+  color: #919191 !important;
+}
+
+#select-width {
+  min-width: 160px;
+}
+
+#input-search {
+  max-width: 600px;
+}
+
+.font-w {
+  font-weight: 400;
+}
+
+.list_right_hover li {
+  transition: background-color 0.5s;
+}
+.list_right_hover li:hover {
+  background-color: #f3f3f3;
+}
+
+.dash {
+  border: 2px dashed #989898;
+}
+
+/*# sourceMappingURL=style.css.map */
